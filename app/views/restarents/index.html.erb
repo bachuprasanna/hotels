@@ -1,0 +1,15 @@
+<h1>Listing Restarent</h1>
+ 
+<table>
+  <tr>
+    <th>Name_of_restarent</th>
+  </tr>
+ 
+  <% @restarents.each do |restarent| %>
+    <tr>
+      <td><%= restarent.Name_of_restarent %></td>
+      <td><%= link_to 'Show', restarent_path(restarent) %></td>
+    </tr>
+  <% end %>
+</table>
+<%= link_to 'New Restarent', new_restarent_path %>
