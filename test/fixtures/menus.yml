@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  restarents_id: 1
+  item: MyString
+  cost: 1.5
+
+two:
+  restarents_id: 1
+  item: MyString
+  cost: 1.5
